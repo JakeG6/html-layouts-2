@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+}
+
+p {
+
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 8px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  max-width: 1200px;
+  margin: 32px auto;
+
+}
+
+.column-one, .column-two {
+  width: 49%;
+}
+
+.image {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: navy;
+}
+
+img {
+max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+
+  }
+
+  .column-one, .column-two {
+    width: 100%;
+  }
+
+}
